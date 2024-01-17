@@ -1,7 +1,9 @@
 body{
   font-family: 'Inter', sans-serif;
 }
-
+.navbar .container {
+  justify-content: space-between;
+}
 .bg-body-tertiary{
   background-color: white !important;
 }
@@ -60,7 +62,7 @@ button:hover{
 }
 
 .main-img{
-  content: url(/assets/images/image-web-3-desktop.jpg)
+  content: url(/이유진/assets/images/image-web-3-desktop.jpg)
 }
 
 .product{
@@ -87,7 +89,7 @@ a:hover{
   color: #E9AA52;
 }
 
-.navbar-collapse{
+/* .navbar-collapse{
   position: fixed;
   top: 0;
   right: 0;
@@ -98,8 +100,8 @@ a:hover{
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-}
-.navbar-collapse a{
+} */
+/* .navbar-collapse a{
   line-height: 3em;
 }
 .x-icon{
@@ -107,10 +109,10 @@ a:hover{
 }
 .active{
   display: block;
-}
+} */
 
 @media screen and (max-width: 767px) {
   .main-img{
-    content: url(/assets/images/image-web-3-mobile.jpg)
+    content: url(/이유진/assets/images/image-web-3-mobile.jpg)
   }
 }
