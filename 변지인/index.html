@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="./index.js"></script>
+  <title>W.</title>
+</head>
+<body>
+  <header>
+    <!-- 로고부분 -->
+    <img src="./img/logo.svg" alt="로고">
+    <!-- 메뉴 부분 -->
+    <!-- [Desktop] -->
+    <nav class="pc">
+      <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+    </nav>
+    <!-- [Mobile] -->
+    <!-- 햄버거버튼 -->
+    <nav class="mobile">
+      <div class="btn"></div>
+      <div onclick="history.back();" class="page_cover"></div>
+      <div id="menu">
+        <ul class="nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+      <div onclick="history.back();" class="close"></div>
+      </div>
+    </nav>
+  </header>
+  <main>
+  <!-- grid를 사용하지 않은 코드 -->
+  <!-- [Desktop] -->
+    <div class="pc" id="contents">
+      <div class="main_contents">
+        <!-- 메인 이미지 -->
+        <div class="content1" id="content1"> 
+          <img src="./img/main_img.png" alt="메인 이미지">
+        </div>
+        <div class="description">
+          <!-- 타이틀 -->
+          <div class="content2" id="content2"> 
+            <p>
+              The Bright <br>
+              Future of<br>
+              Web 3.0?
+            </p>
+          </div>
+          <!-- 부가설명+버튼 -->
+          <div class="content3" id="content3"> 
+            <p>
+              We dive into the next evolution of the web that<br>
+              claims to put the power of the platforms back<br>
+              into the hands of the people. But is it really<br>
+              fulfilling its promise?
+            </p>
+            <button class="readmore">READ MORE</button>
+          </div>
+        </div>
+      </div>
+      <!-- NEW 검정 박스 -->
+      <div class="content4" id="content4"> 
+        <p class="topic">
+          New
+        </p>
+        <p class="sub_topic">
+          Hydrogen VS Electric Cars
+        </p>
+        <p class="detail">
+          Will hydrogen-fueled cars ever catch up to<br>
+          EVs?
+        </p>
+        <p class="sub_topic" id="up">
+          The Downsides of AI Artistry
+        </p>
+        <p class="detail" id="down">
+          What are the possible adverse effects of<br>
+          on-demand AI image generation?
+        </p>
+        <p class="sub_topic">
+          Is VC Funding Drying Up?
+        </p><p class="detail">
+          Private funding by VC firms is down 50%<br>
+          YOY. We take a look at what that means.
+        </p>
+      </div>
+    </div>
+  <!-- [Mobile] -->
+    <div class="mobile" id="contents_m">
+      <!-- 메인 이미지 -->
+      <div class="content1" id="content1_m"> 
+        <img src="./img/main_img.png" alt="메인 이미지">
+      </div>
+      <!-- 타이틀 -->
+      <div class="content2" id="content2_m"> 
+        <p>
+          The Bright<br>
+          Future of Web<br>
+          3.0?
+        </p>
+      </div>
+      <!-- 부가설명+버튼 -->
+      <div class="content3" id="content3_m"> 
+        <p>
+          We dive into the next evolution of the web that<br>
+          claims to put the power of the platforms back<br>
+          into the hands of the people. But is it really<br>
+          fulfilling its promise?
+        </p>
+        <button class="readmore">READ MORE</button>
+      </div>
+      <!-- NEW 검정 박스 -->
+      <div class="content4" id="content4_m"> 
+        <p class="topic">
+          New
+        </p>
+        <p class="sub_topic">
+          Hydrogen VS Electric Cars
+        </p>
+        <p class="detail">
+          Will hydrogen-fueled cars ever catch up to<br>
+          EVs?
+        </p>
+        <hr>
+        <p class="sub_topic">
+          The Downsides of AI Artistry
+        </p>
+        <p class="detail">
+          What are the possible adverse effects of<br>
+          on-demand AI image generation?
+        </p>
+        <hr>
+        <p class="sub_topic">
+          Is VC Funding Drying Up?
+        </p><p class="detail">
+          Private funding by VC firms is down 50%<br>
+          YOY. We take a look at what that means.
+        </p>
+      </div>
+    </div>
+  </main>
+  <section>
+    <!-- 첫박스 -->
+    <div class="first">
+      <!-- 이미지 부분 -->
+      <div class="img_area">
+        <img src="./img/01_img.png" alt="첫번째 사진">
+      </div>
+      <!-- 텍스트 부분 -->
+      <div class="text_area">
+        <p class="numbertext">01</p>
+        <p class="title"><a href="#">Reviving Retro PCs</a></p>
+        <p class="sub_title">
+          What happens when old PCs<br>
+          are given modern upgrades?
+        </p>
+      </div>
+    </div>
+    <!-- 두번째 박스 -->
+    <div class="second">
+      <!-- 이미지 부분 -->
+      <div class="img_area">
+        <img src="./img/02_img.png" alt="두번째 사진">
+      </div>
+      <!-- 텍스트 부분 -->
+      <div class="text_area">
+        <p class="numbertext">02</p>
+        <p class="title"><a href="#">Top 10 Laptops of 2022</a></p>
+        <p class="sub_title">
+          Our best picks for various<br>
+          needs and budgets.
+        </p>
+      </div>
+    </div>
+    <!-- 세번째 박스 -->
+    <div class="third">
+      <!-- 이미지 부분 -->
+      <div class="img_area">
+        <img src="./img/03_img.png" alt="세번째 사진">
+      </div>
+      <!-- 텍스트 부분 -->
+      <div class="text_area">
+        <p class="numbertext">03</p>
+        <p class="title"><a href="#">The Growth of Gaming</a></p>
+        <p class="sub_title">
+          How the pandemic has sparked<br>
+          fresh opportunities.
+        </p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
