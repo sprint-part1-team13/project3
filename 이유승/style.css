@@ -1,0 +1,280 @@
+@font-face {
+  font-family: "inter";
+  src: url(./assets/fonts/static/Inter-Bold.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "inter-r";
+  src: url(./assets/fonts/static/Inter-Regular.ttf);
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fffdfb;
+  margin: 89px 165px;
+  width: 1110px;
+  height: auto;
+}
+
+header {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+  
+}
+
+footer {
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav.logo {
+  width: 64.092px;
+  height: 39.9px;
+  flex-shrink: 0;
+}
+
+.menu ul {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  list-style-type: none;
+}
+
+ul > li:hover > a {
+  color: #f14a3e;
+  text-decoration: underline;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 1110px;
+  height: 511px;
+  flex-shrink: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contents1-image-container {
+  width: 730px;
+  height: 300px;
+  flex-shrink: 0;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.contents1-image-container img {
+  width: 730px;
+  height: 584px;
+  flex-shrink: 0;
+}
+
+
+.description-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 730px;
+  height: 183px;
+  flex-shrink: 0;
+}
+
+.contents1-title {
+  display: flex;
+  width: 350px;
+  height: 182px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.contents1-title h2 {
+  font-family: Inter;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 56px;
+  color: #00001A;
+}
+
+.contents1-description {
+  display: flex;
+  width: 350px;
+  height: 181px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 29px;
+  flex-shrink: 0;
+}
+
+.contents1-description p {
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: #5E607A;
+}
+
+.description-container a {
+  display: inline-block;
+  padding: 13px 35px 11px 31px;
+  background-color: #F15D51;
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 4.375px;
+  color: #FFFDFA;
+}
+
+.description-container a:hover {
+  background-color: #00001A;
+}
+
+.contents2 {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 511px;
+  padding: 32px 24px;
+  flex-shrink: 0;
+  background-color: #00001A;
+}
+
+.contents2 h2 {
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: #E9AA52;
+}
+
+.contents2-title {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 24px;
+  color: #FFFDFA;
+}
+
+.contents2-title:hover {
+  color: #E9AA52;
+}
+
+.contents2-description {
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: #C5C6CE;
+  border-bottom: solid 1px #5E607A;
+  padding-bottom: 29px;
+}
+
+.contents2-description:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.contents3 {
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+  display: flex;
+  gap: 30px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.contents3-image {
+  width: 89.5px;
+  height: 127px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.contents3-container {
+  display: flex; /* flex container로 설정 */
+  align-items: center; /* 수직 중앙 정렬 */
+  gap: 5px;
+}
+
+.contents3-description {
+  display: flex;
+  flex-direction: column; /* 세로로 정렬 */
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contents3-description h3 {
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  margin: 0;
+  color: #C5C6CE;
+}
+
+.contents3-description a {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 24px;
+  margin: 0;
+  color: #00001A;
+  text-decoration: none;
+}
+
+.contents3-description a:hover {
+  color: #F15D51;
+}
+
+.contents3-description p {
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0;
+  color: #5E607A;
+}
+
+
+.main {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
