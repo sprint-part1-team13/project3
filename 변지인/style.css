@@ -8,8 +8,11 @@
 body{
   background: var(--Almost-White, #FFFDFA);
 }
-a{
-  color: #000;
+.all{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 /* PC */
 .pc{
@@ -25,7 +28,10 @@ header{
   justify-content: space-between;
   align-items: center;
   width: 1100px;
-  margin: 89px 165px;
+  margin: 89px 165px 55px;
+}
+header a{
+  color: #5E607A;
 }
 .pc ul{
   display: inline-flex;
@@ -188,6 +194,9 @@ section{
   overflow: hidden;
   margin: 74px 165px auto;
 }
+section a{
+  color: #000;
+}
 section a:visited{
   color: inherit;
 }
@@ -256,7 +265,7 @@ section>div{
   line-height: 26px; /* 173.333% */
 }
 /* Mobail */
-@media (min-width:350px) and (max-width:1000px){
+@media (min-width:350px) and (max-width:500px){
   .pc{
     display: none;
     visibility: hidden;
