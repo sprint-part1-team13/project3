@@ -124,7 +124,7 @@ button{
   flex-shrink: 0;
   background: #F15D51;
   border: none;
-  color: var(--Almost-White, #FFFDFA);
+  color: #FFFDFA;
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
